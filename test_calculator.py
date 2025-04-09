@@ -32,7 +32,7 @@ class TestCalculator(unittest.TestCase):
     #     # use same technique from test_divide_by_zero
     #     fill in code
     # ##########################
-    
+
     ######## Partner 1
     # def test_log_invalid_argument(self): # 1 assertion
     #     # call log function inside, example:
