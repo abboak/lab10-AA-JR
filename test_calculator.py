@@ -1,5 +1,5 @@
 # Repository: https://github.com/abboak/lab10-AA-JR
-# Partner 1: Jack Reinhardt
+# Partner 1: Jack Reinhart
 # Partner 2: Abdulrahman Alkaelani
 
 import unittest
