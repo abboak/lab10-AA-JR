@@ -3,7 +3,7 @@
 # Partner 2: Abdulrahman Alkaelani
 
 import unittest
-from calculator import add, sub, div, log
+from calculator import *
 
 class TestCalculator(unittest.TestCase):
 
