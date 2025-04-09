@@ -1,8 +1,8 @@
-import math
-
 # Repository: https://github.com/abboak/lab10-AA-JR
 # Partner 1: Jack Reinhardt
 # Partner 2: Abdulrahman Alkaelani
+
+import math
 
 def add(a, b):
     return a + b

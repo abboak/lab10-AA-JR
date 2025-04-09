@@ -1,3 +1,7 @@
+# Repository: https://github.com/abboak/lab10-AA-JR
+# Partner 1: Jack Reinhardt
+# Partner 2: Abdulrahman Alkaelani
+
 import unittest
 from calculator import add, sub, div, log
 
