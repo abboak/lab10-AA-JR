@@ -7,7 +7,7 @@ import math
 def add(a, b):
     return a + b
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 def mul(a, b):
@@ -18,7 +18,7 @@ def div(a, b):
         raise ZeroDivisionError("Division by zero is not allowed")
     return a / b
 
-def log(a, b):
+def logarithm(a, b):
     if a <= 0 or a == 1:
         raise ValueError("Invalid base for logarithm: base must be > 0 and not equal to 1")
     if b <= 0:
@@ -27,5 +27,14 @@ def log(a, b):
 
 def exp(a, b):
     return a ** b
+
+def square_root(a):
+    math.sqrt(a)
+    if a<0:
+        raise ValueError
+
+def hypotenuse(a, b):
+    math.hypot(a, b)
+
 
 
