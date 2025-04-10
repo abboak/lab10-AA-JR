@@ -31,5 +31,9 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             log(-2, 10)
 
+    def test_square_root(self):
+        with self.assertRaises(ValueError):
+
+
 if __name__ == '__main__':
     unittest.main()
