@@ -32,8 +32,8 @@ class TestCalculator(unittest.TestCase):
             div(5, 0)
 
     def test_logarithm(self):
-        self.assertAlmostEqual(log(2, 8), 3, places=5)
-        self.assertAlmostEqual(log(10, 100), 2, places=5)
+        self.assertAlmostEqual(logarithm(2, 8), 3, places=5)
+        self.assertAlmostEqual(logarithm(10, 100), 2, places=5)
 
 
     def test_log_invalid_argument(self):
