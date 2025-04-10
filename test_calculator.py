@@ -31,5 +31,16 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             log(-2, 10)
 
+    def test_square_root(self):
+        self.assertAlmostEqual(square_root(4), 2.0, places=5)
+        self.assertAlmostEqual(square_root(9), 3.0, places=5)
+        with self.assertRaises(ValueError):
+            square_root(-1)
+
+    def test_hypotenuse(self):
+        self.assertAlmostEqual(hypotenuse(3, 4), 5.0, places=5)
+        self.assertAlmostEqual(hypotenuse(5, 12), 13.0, places=5)
+
+
 if __name__ == '__main__':
     unittest.main()
